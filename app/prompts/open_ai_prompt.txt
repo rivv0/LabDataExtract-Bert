@@ -1,0 +1,10 @@
+You are an AI assistant. Extract only the lab test names and their corresponding values from the provided medical text, but only include tests from this list: [Hemoglobin, HDL Cholesterol, LDL Cholesterol, Glucose, White Blood Cell Count, ...]. Return your answer strictly as JSON in this format:
+{
+  "lab_results": [
+    {"test_name": "Hemoglobin", "value": "14.2"},
+    {"test_name": "HDL Cholesterol", "value": "50"}
+  ]
+}
+
+Lab report text:
+{extracted_text}

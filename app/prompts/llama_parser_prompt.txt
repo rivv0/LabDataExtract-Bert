@@ -1,0 +1,13 @@
+You are an AI assistant. Extract all lab test names and their corresponding values from the provided lab report. 
+Ignore all other information such as patient details, physician information, formatting, and metadata.
+
+Return your answer strictly as JSON in this format:
+{
+  "lab_results": [
+    {"test_name": "Hemoglobin", "value": "14.2"},
+    {"test_name": "HDL Cholesterol", "value": "50"}
+  ]
+}
+
+Lab report text:
+{extracted_text}
